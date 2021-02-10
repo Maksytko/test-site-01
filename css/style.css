@@ -1,0 +1,146 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* COMPTONENTS */
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* END COMPONENTS */
+/* HEADER */
+header {
+  position: relative;
+  padding: 20px 0px;
+  border-bottom: 1px solid #000000;
+}
+
+/* .shadow-header {
+  position: absolute;
+  z-index: 0;
+  background: #000000;
+  opacity: 0.1;
+  filter: blur(20px);
+  height: 50px;
+  width: 100%;
+} */
+
+header > .container {
+  z-index: 1;
+  /* position: absolute; */
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.modal-button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #3d8be4;
+  border: 1px solid #3d8be4;
+  box-sizing: border-box;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 5px 35px;
+}
+.nav-list {
+  display: flex;
+}
+
+.nav-list-item-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.icon-tel,
+.icon-notifications {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-tel {
+  margin-right: 10px;
+}
+
+.icon-notifications {
+  margin-right: 25px;
+}
+
+.tel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.profile-pic {
+  margin-right: 7px;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.profile-button {
+  width: 9px;
+  height: 5px;
+}
+
+address {
+  display: flex;
+  justify-content: center;
+}
+/* END HEADER */
