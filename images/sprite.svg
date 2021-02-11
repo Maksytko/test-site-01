@@ -1,6 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<symbol id="icon-hero-scenes" viewBox="0 0 41 32">
+<symbol id="icon-hero-scene" viewBox="0 0 41 32">
 <path fill="#3f5c93" style="fill: var(--color1, #3f5c93)" d="M31.454 18.972h-15.437c-0.434 0-0.786-0.352-0.786-0.786v-14.697c0-0.434 0.352-0.786 0.786-0.786h15.437c0.434 0 0.786 0.352 0.786 0.786v14.697c0 0.434-0.352 0.786-0.786 0.786z"></path>
 <path fill="#6291d7" style="fill: var(--color2, #6291d7)" d="M30.96 18.479h-15.437c-0.434 0-0.786-0.352-0.786-0.786v-14.697c0-0.434 0.352-0.786 0.786-0.786h15.437c0.434 0 0.786 0.352 0.786 0.786v14.697c0 0.434-0.352 0.786-0.786 0.786z"></path>
 <path fill="#fff" style="fill: var(--color3, #fff)" d="M24.415 4.563h-7.325c-0.13 0-0.236-0.106-0.236-0.236s0.106-0.236 0.236-0.236h7.325c0.13 0 0.236 0.106 0.236 0.236s-0.106 0.236-0.236 0.236z"></path>

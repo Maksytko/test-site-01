@@ -38,7 +38,8 @@ body {
 /* END COMPONENTS */
 /* HEADER */
 header {
-  position: relative;
+  position: absolute;
+  width: 100%;
   padding: 20px 0px;
   border-bottom: 1px solid #000000;
 }
@@ -64,13 +65,10 @@ header > .container {
   background-color: #fff;
 }
 
-.modal-button {
+.modal-button-header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.01em;
   color: #3d8be4;
   border: 1px solid #3d8be4;
@@ -90,6 +88,11 @@ header > .container {
   letter-spacing: 0.01em;
   color: #000000;
 }
+
+/* .nav-list-item-link:focus,
+.nav-list-item-link:hover {
+
+} */
 
 .nav-list-item:not(:last-child) {
   margin-right: 45px;
@@ -144,3 +147,120 @@ address {
   justify-content: center;
 }
 /* END HEADER */
+/* HERO */
+.hero-section > .container {
+  padding-left: 200px;
+  padding-right: 20px;
+}
+
+.hero-section {
+  position: relative;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+.left-part-hero {
+  max-width: 750px;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.modal-buttons-list {
+  display: flex;
+}
+
+.left-modal-button-hero {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  padding: 20px 35px;
+  background-color: #3d8be4;
+  border: 1px solid #3d8be4;
+  border-radius: 6px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.right-modal-button-hero {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #3d8be4;
+  padding: 20px 35px;
+  background-color: #ffffff;
+  border: 1px solid #3d8be4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.scene {
+  position: absolute;
+  /* padding-left: 124px;
+  padding-top: 136px;
+  padding-right: 85px; */
+  width: 630px;
+  height: 415px;
+  border: 1px dashed #e5e5e5;
+  box-sizing: border-box;
+  border-radius: 12px;
+  top: 193px;
+  left: 830px;
+  margin-bottom: 120px;
+}
+
+.icon-hero-scene {
+  position: relative;
+  width: 420px;
+  height: 324px;
+  top: 136px;
+  left: 125px;
+}
+
+.buttom-part-list-hero {
+  position: absolute;
+  display: flex;
+  left: 830px;
+  top: 730px;
+}
+
+.buttom-part-list-hero-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttom-part-list-hero-item:not(:last-child) {
+  margin-right: 108px;
+}
+
+.buttom-part-list-hero-number {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 130%;
+  margin-bottom: 35px;
+  margin-top: 0px;
+}
+
+.buttom-part-list-hero-text {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 130%;
+}
+/* END HERO */ ;
